@@ -1,0 +1,10 @@
+Version: 2.0.1
+  - The typed items in the hero/intro section can now be set with editing the index.html instead of editing the main.js file
+  
+Version: 2.0.0
+  - The template was rebuilt from scratch with the latest Bootstrap version (4.4.1)
+  - Added SMPTP support for the contact form script (Pro)
+  - Added NodeJS NPM Development version (Pro unlimited & Membership members)
+  
+Version: 1.0.0
+  - Initial Release

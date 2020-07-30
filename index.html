@@ -15,10 +15,18 @@
 		
 		<style type = "text/css">
 			*{
-							font-family: 'Oswald', sans-serif;
+				font-family: 'Oswald', sans-serif;
+						font-size:20;
+			}
+			@media screen and (max-width: 600px) {
+				*{
+				font-size: 30px;
+				}
+				nav li {
+				font-size: 40px;
+				}
 			}
 			p{
-				font-size:18;
 				text-align: center;
 			}
 			body{
@@ -34,6 +42,7 @@
 				height: 100%;
 				padding: 10px;
 				margin-left:70px;
+				font-size:25px;
 			}
 			#face {
 				width:60px;
@@ -45,11 +54,12 @@
 				box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 				
 			}
-		
+
 			#ham{
 				width:100px;
 				height:70px;
 				margin-left: auto;
+				box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 			}
 			.container{
 				padding:12px;
@@ -63,8 +73,13 @@
 			.poster{
 				width:500px;
 				height:500px;
-				margin: auto;
-				filter:blur(2px);
+				display: block;
+				margin-left: auto;
+				margin-right: auto;
+			}
+		
+			.navbar{
+				box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 			}
 		</style>
 	</head>
@@ -91,19 +106,27 @@
 	
 	<div class = "container">
 		<p>
-			Hello, my name is David Kozdra. I am a computer science student focused on software engineering. 
-		This is my project portfolio and website. I have projects focused on web development, desktop apps, video games.
-		I am currently a sophomore at Florida Poly University. I have experience with several technologies including, javascript, c# .net, android development
-		SQL and C. 
-		<hr class="line"></hr>
+			Hello, my name is David Kozdra. I am a sophmore of computer science student at Florida Poly University.
+			This is my project portfolio and website. I have projects focused on web development, desktop apps, video games. 
+			I am currently a sophomore at Florida Poly University. 
+					<hr class="line"></hr>
 		</p>
+		<div>
+						<h1 style = "text-align:center">My Technologies<h1>
+				<ol >
+					<li>C# .net</li>
+					<li>WPF</li>
+					<li>js</li>
+					<li>bootstrap</li>
+					<li>C</li>
+					<li>Android</li>
+				</ol> 
+		</div>
 		
 	</div>
 	
 	<div class="container">
   <div class="row">
-
-    <div class="w-100"></div>
     <div class="col col-sm-12 col-lg-6">
 		<a href="https://github.com/DavidKozdra/PasswordValut">
 			 <img alt="wpf" src="images\WPF.jpg"
@@ -129,7 +152,7 @@
 		  </div>
     <div class="col col-sm-12 col-lg-6">
 		<a href="https://floridanationalnews.com/">
-			 <img alt="Qries" src="images\fnn.jpg"
+			 <img alt="web" src="images\fnn.jpg"
 			class="poster">
 			<p> WebSites</p>
 		  </a></div>
@@ -181,23 +204,13 @@
         </ul>
 
       </div>
-      <!-- Grid column -->
 
       <hr class="clearfix w-100 d-md-none">
 
-      <!-- Grid column -->
-
-        <!-- Links -->
-        
-      <!-- Grid column -->
-
     </div>
-    <!-- Grid row -->
 
   </div>
-  <!-- Footer Links -->
 
-  <!-- Copyright -->
   <div class="footer-copyright text-center py-3" style="font-family: 'Oswald', sans-serif;">David Kozdra
   </div>
   <!-- Copyright -->

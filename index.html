@@ -1,217 +1,250 @@
 <html>
-	<head>
-		<title>
-			David Kozdra
-		</title>
-		<!-- BootStrap  -->
-		<link rel="icon" href="images\favicon.ico">
-		
-			<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-			<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-			<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-			<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-			
-		<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
-		
-		<style type = "text/css">
-			*{
-				font-family: 'Oswald', sans-serif;
-				font-size:1em;
-			}
-			p{
-				text-align: center;
-				font-size:1.5em;
-			}
-			body{
-				padding-top;
-			}
-				
-			.fixed{
-				position:fixed;	
-			}
-		
-			nav li {
-				display: inline-block;
-				height: 100%;
-				padding: 10px;
-				margin-left:70px;
-				font-size:2em;
-			}
-					.page-footer{
-				font-size:1.5em;
-			}
-			#face {
-				width:60px;
-				height:60px;
-				border: 1px solid #ddd;
-				border-radius: 1px;
-				padding: 2px;
-				border-radius: 85%;
-				box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-				
-			}
+<head>
+	<title>
+		David Kozdra
+	</title>
+	<!-- BootStrap  -->
+	<link rel="icon" href="images\favicon.ico">
 
-			#ham{
-				width:100px;
-				height:70px;
-				margin-left: auto;
-				box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-			}
-			.container{
-				padding:12px;
-				margin-top:30px;
-				border:20px;
-				box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-			}
-			hr{
-				width:90%;
-			}
-			.poster{
-				width:500px;
-				height:500px;
-				display: block;
-				margin-left: auto;
-				margin-right: auto;
-			}
-		
-			.navbar{
-				box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-			}
-		</style>
-	</head>
-	<body>	
-		<nav style="background-color: #e3f2fd;" class="navbar sticky-top navbar-expand-lg" >
-			<a  class="navbar-brand" href="index.html"><img id = "face" src="images\ME.jpg"><img></a>
-			<input type="image" src="images\ham.png" class="navbar-toggler" id ="ham" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</input>
-			<div class="collapse navbar-collapse" id="navbarNav">
-				<ul class="navbar-nav">
-					<li class="nav-item active">
-						<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="Projects.html">Projects</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="Contact Me.html">Hire David</a>
-					</li>
-				</ul>
-		  </div>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+	<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+
+	<style type="text/css">
+		* {
+			font-family: 'Oswald', sans-serif;
+			font-size: 1em;
+		}
+
+		p {
+			text-align: center;
+			color: aliceblue;
+			font-size: 1.2em;
+		}
+
+		h1 {
+			color: aliceblue;
+		}
+
+		body {
+			padding-top;
+			background-color: #2c3e50;
+		}
+
+		.fixed {
+			position: fixed;
+		}
+
+		nav li {
+			display: inline-block;
+			height: 50%;
+			padding: 10px;
+			margin-left: 70px;
+			font-size: 2em;
+		}
+
+		a {
+			color: aliceblue;
+		}
+
+		.container {
+			padding: 120px;
+			width: 100%;
+			max-width: 2000px;
+			background-color: #2b2b2b;
+			margin-top: 30px;
+			border: 20px;
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		}
+
+		div {
+		}
+
+		.page-footer {
+			font-size: 1.5em;
+		}
+
+		#face {
+			width: 60px;
+			height: 60px;
+			border: 1px solid #ddd;
+			border-radius: 1px;
+			padding: 2px;
+			border-radius: 85%;
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		}
+
+		#ham {
+			width: 100px;
+			height: 70px;
+			margin-left: auto;
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		}
+
+		.RectItem {
+			background-color: #2c3e50;
+			width: 100px;
+			height: 100px;
+			padding: 2px;
+			border: groove;
+			border-color: #2b2b2b;
+			color: aliceblue;
+		}
+
+		hr {
+			width: 90%;
+		}
+
+		.poster {
+			width: 500px;
+			height: 500px;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+		}
+	</style>
+</head>
+<body>
+	<nav style=" background-color: #2b2b2b;" class="navbar sticky-top navbar-expand-lg">
+		<a class="navbar-brand" href="index.html"><img id="face" src="images\ME.jpg"><img></a>
+		<input type="image" src="images\ham.png" class="navbar-toggler" id="ham" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+		</input>
+		<div class="collapse navbar-collapse" id="navbarNav">
+			<ul class="navbar-nav">
+				<li class="nav-item active">
+					<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="Projects.html">Projects</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="Contact Me.html">Hire David</a>
+				</li>
+			</ul>
+		</div>
 	</nav>
-	
-	<div class = "container">
-		<p>
-			Hello, my name is David Kozdra. I am a sophmore of computer science student at Florida Poly University.
-			This is my project portfolio and website. I have projects focused on web development, desktop apps, video games. 
-			I am currently a sophomore at Florida Poly University. 
-					<hr class="line"></hr>
+
+	<video autoplay muted loop id="myVideo" style="padding-right:10px; align-self:center;">
+		<source src="images/background.mp4" type="video/mp4">
+	</video>
+
+	<div class="container" style="background-color: #2b2b2b;">
+		<p style="font-size:large">
+			Hello, my name is David Kozdra. I am currently a sophomore of computer science at Florida Polytechnic University.
+			This is my project portfolio and website. I have projects focused on web development, desktop apps, video games.
+
+			<hr class="line"></hr>
 		</p>
 		<div>
-						<h1 style = "text-align:center">My Technologies<h1>
-				<ol >
-					<li>C# .net</li>
-					<li>WPF</li>
-					<li>js</li>
-					<li>bootstrap</li>
-					<li>C</li>
-					<li>Android</li>
-				</ol> 
+			<h1 style="color:aliceblue; text-align:center; ">
+				My Technologies
+			</h1>
+			<div class="row">
+				<div class="RectItem">C# .net</div>
+				<div class="RectItem">WPF </div>
+				<div class="RectItem"> JS HTMl CSS </div>
+				<div class="RectItem">Unity</div>
+			</div>
 		</div>
-		
+
 	</div>
-	
-	<div class="container">
-  <div class="row">
-    <div class="col col-sm-12 col-lg-6">
-		<a href="https://github.com/DavidKozdra/PasswordValut">
-			 <img alt="wpf" src="images\WPF.jpg"
-			class="poster">
-			<p>WPF</p>
-		  </a>
-		  	
-		  </div>
-    <div class="col col-sm-12 col-lg-6">     
-		<a href="https://github.com/DamienJK/Pocket--Chiropractor">
-			 <img alt="mobile" src="images\android.jpg"
-			class="poster">
-			<p> Mobile Apps</p>
-		</a>
-			
+
+	<div class="row">
+		<div class="col col-sm-12 col-lg-6">
+			<a href="https://github.com/DavidKozdra/PasswordValut">
+				<img alt="wpf" src="images\WPF.jpg"
+					 class="poster">
+				<p>WPF</p>
+			</a>
+
+		</div>
+		<div class="col col-sm-12 col-lg-6">
+			<a href="https://github.com/DamienJK/Pocket--Chiropractor">
+				<img alt="mobile" src="images\android.jpg"
+					 class="poster">
+				<p> Mobile Apps</p>
+			</a>
+
+		</div>
+		<div class="col col-sm-12 col-lg-6">
+			<a href="https://magentaautumn.itch.io/">
+				<img alt="itch" src="images\space.jpg"
+					 class="poster">
+				<p> Game Devolopment</p>
+			</a>
+		</div>
+		<div class="col col-sm-12 col-lg-6">
+			<a href="https://floridanationalnews.com/">
+				<img alt="web" src="images\fnn.jpg"
+					 class="poster">
+				<p> WebSites</p>
+			</a>
+		</div>
 	</div>
-	    <div class="col col-sm-12 col-lg-6">
-		<a href="https://magentaautumn.itch.io/">
-			 <img alt="itch" src="images\space.jpg"
-			class="poster">
-			<p> Game Devolopment</p>
-		  </a>
-		  </div>
-    <div class="col col-sm-12 col-lg-6">
-		<a href="https://floridanationalnews.com/">
-			 <img alt="web" src="images\fnn.jpg"
-			class="poster">
-			<p> WebSites</p>
-		  </a></div>
-  </div>
-</div>
+	</div>
 
-<!-- Footer -->
-<footer class="page-footer font-small indigo">
+	<!-- Footer -->
+	<footer class="page-footer font-small indigo container">
 
-  <!-- Footer Links -->
-  <div class="container text-center text-md-left">
+		<!-- Footer Links -->
+		<div class=" text-center text-md-left">
 
-    <!-- Grid row -->
-    <div class="row">
-      <hr class="clearfix w-100 d-md-none">
-      <!-- Grid column -->
-      <div class="col-md-3 mx-auto">
+			<!-- Grid row -->
+			<div class="row">
+				<hr class="clearfix w-100 d-md-none">
+				<!-- Grid column -->
+				<div class="col-md-3 mx-auto">
 
-        <!-- Links -->
-        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Social</h5>
+					<!-- Links -->
+					<h1 class="font-weight-bold text-uppercase mt-3 mb-4">Social</h1>
 
-        <ul class="list-unstyled">
-          <li>
-            <a href="https://www.linkedin.com/in/david-kozdra-5ab269186/">Linkedin</a>
-          </li>
-          <li>
-            <a href="https://github.com/DavidKozdra">Github</a>
-          </li>
-        </ul>
+					<ul class="list-unstyled">
+						<li>
+							<a href="https://www.linkedin.com/in/david-kozdra-5ab269186/">Linkedin</a>
+						</li>
+						<li>
+							<a href="https://github.com/DavidKozdra">Github</a>
+						</li>
+					</ul>
 
-      </div>
-      <!-- Grid column -->
+				</div>
+				<!-- Grid column -->
 
-      <hr class="clearfix w-100 d-md-none">
+				<hr class="clearfix w-100 d-md-none">
 
-      <!-- Grid column -->
-      <div class="col-md-3 mx-auto">
+				<!-- Grid column -->
+				<div class="col-md-3 mx-auto">
 
-        <!-- Links -->
-        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">More about me</h5>
+					<!-- Links -->
+					<h1 class="font-weight-bold text-uppercase mt-3 mb-4">More about me</h1>
 
-        <ul class="list-unstyled">
-          <li>
-           <a onclick="window.open('resume.pdf')" href="#">Resume</a>
-          </li>
-          <li>
-            <a href="mailto:davidkozdra@gmail.com">Contact Me</a>
-          </li>
-        </ul>
+					<ul class="list-unstyled">
+						<li>
+							<a onclick="window.open('resume.pdf')" href="#">Resume</a>
+						</li>
+						<li>
+							<a href="mailto:davidkozdra@gmail.com">Contact Me</a>
+						</li>
+					</ul>
 
-      </div>
+				</div>
 
-      <hr class="clearfix w-100 d-md-none">
+				<hr class="clearfix w-100 d-md-none">
 
-    </div>
+			</div>
 
-  </div>
+		</div>
 
-  <div class="footer-copyright text-center py-3" style="font-family: 'Oswald', sans-serif;">David Kozdra
-  </div>
-  <!-- Copyright -->
+		<div class="footer-copyright text-center py-3" style="font-family: 'Oswald', sans-serif;">
+			David Kozdra
+		</div>
+		<!-- Copyright -->
 
-</footer>
-<!-- Footer -->
-	</body>
+	</footer>
+	<!-- Footer -->
+</body>
 </html>

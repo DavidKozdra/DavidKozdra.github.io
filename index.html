@@ -3,111 +3,17 @@
 	<title>
 		David Kozdra
 	</title>
-	<!-- BootStrap  -->
-	<link rel="icon" href="images\favicon.ico">
-
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-
-	<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
-
-	<style type="text/css">
-		* {
-			font-family: 'Oswald', sans-serif;
-			font-size: 1em;
-		}
-
-		p {
-			text-align: center;
-			color: aliceblue;
-			font-size: 1.2em;
-		}
-
-		h1 {
-			color: aliceblue;
-		}
-
-		body {
-			padding-top;
-			background-color: #2c3e50;
-		}
-
-		.fixed {
-			position: fixed;
-		}
-
-		nav li {
-			display: inline-block;
-			height: 50%;
-			padding: 10px;
-			margin-left: 70px;
-			font-size: 2em;
-		}
-
-		a {
-			color: aliceblue;
-		}
-
-		.container {
-			padding: 120px;
-			width: 100%;
-			max-width: 2000px;
-			background-color: #2b2b2b;
-			margin-top: 30px;
-			border: 20px;
-			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-		}
-
-		div {
-		}
-
-		.page-footer {
-			font-size: 1.5em;
-		}
-
-		#face {
-			width: 60px;
-			height: 60px;
-			border: 1px solid #ddd;
-			border-radius: 1px;
-			padding: 2px;
-			border-radius: 85%;
-			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-		}
-
-		#ham {
-			width: 100px;
-			height: 70px;
-			margin-left: auto;
-			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-		}
-
-		.RectItem {
-			background-color: #2c3e50;
-			width: 100px;
-			height: 100px;
-			padding: 2px;
-			border: groove;
-			border-color: #2b2b2b;
-			color: aliceblue;
-		}
-
-		hr {
-			width: 90%;
-		}
-
-		.poster {
-			width: 500px;
-			height: 500px;
-			display: block;
-			margin-left: auto;
-			margin-right: auto;
-		}
-	</style>
+		<!-- Links and referances  -->
+		<link rel="icon" href="images\favicon.ico">
+		<link rel="stylesheet" href = "MainStyle.css" />
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"/>
+		<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet"/>
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>				   
+	
 </head>
-<body>
+<body style="background-color: #2c3e50;">
 	<nav style=" background-color: #2b2b2b;" class="navbar sticky-top navbar-expand-lg">
 		<a class="navbar-brand" href="index.html"><img id="face" src="images\ME.jpg"><img></a>
 		<input type="image" src="images\ham.png" class="navbar-toggler" id="ham" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -128,29 +34,53 @@
 		</div>
 	</nav>
 
-	<video autoplay muted loop id="myVideo" style="padding-right:10px; align-self:center;">
+	<video autoplay muted loop id="myVideo" style="padding-left:100px; align-self:center;">
 		<source src="images/background.mp4" type="video/mp4">
 	</video>
 
 	<div class="container" style="background-color: #2b2b2b;">
-		<p style="font-size:large">
+		<p style="font-size:45px">
 			Hello, my name is David Kozdra. I am currently a sophomore of computer science at Florida Polytechnic University.
 			This is my project portfolio and website. I have projects focused on web development, desktop apps, video games.
 
 			<hr class="line"></hr>
 		</p>
 		<div>
-			<h1 style="color:aliceblue; text-align:center; ">
-				My Technologies
-			</h1>
-			<div class="row">
-				<div class="RectItem">C# .net</div>
-				<div class="RectItem">WPF </div>
-				<div class="RectItem"> JS HTMl CSS </div>
-				<div class="RectItem">Unity</div>
+			<div class="row" > <!--Header-->
+				Technologies
 			</div>
-		</div>
+			<div class="row"> <!--items-->
+				<!-- rules --> 
+					<div class="col RectItem"> C# .net </div>
+					<div class="col RectItem"> JS </div>
+					<div class="col RectItem"> C </div>
+					<div class="col RectItem"> HTMl CSS </div>
+					<div class="col RectItem"> BootStrap </div>
+					<div class="col RectItem"> WPF </div>
+					<div class="col RectItem"> Unity </div>
+					<div class="col RectItem"> SQl, postgres </div>
+					<div class="col RectItem"> OOP </div>
+					<div class="col RectItem"> data structs and algorithms </div>
+			</div>
 
+			<div class="row" > <!--header-->
+				Years of experience
+			</div>
+			<div class="row" > <!--items-->
+					<div class="col RectItem"> 2 years </div>
+					<div class="col RectItem"> 1 year </div>
+					<div class="col RectItem"> 2 years </div>
+					<div class="col RectItem"> 1 year </div>
+					<div class="col RectItem"> 2 years </div>
+					<div class="col RectItem"> 2 years </div>
+					<div class="col RectItem"> 2 years </div>
+					<div class="col RectItem"> > 1 year</div>
+					<div class="col RectItem"> 3 years</div>
+					<div class="col RectItem"> 2 years</div>
+			</div>
+		
+
+		</div>
 	</div>
 
 	<div class="row">
@@ -239,7 +169,7 @@
 
 		</div>
 
-		<div class="footer-copyright text-center py-3" style="font-family: 'Oswald', sans-serif;">
+		<div class="footer-copyright text-center py-3" style="color: white; font-family: 'Oswald', sans-serif;">
 			David Kozdra
 		</div>
 		<!-- Copyright -->

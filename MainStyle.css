@@ -10,6 +10,10 @@
         font-size: 1.2em;
     }
 
+    .active {
+        text-decoration: underline;
+}
+
     h1 {
         color: aliceblue;
     }
@@ -32,7 +36,10 @@
     a {
             color: #4A72FF;
     }
+    #myVideo{
+        opacity: 0.5;
 
+    }
     .container {
         padding: 120px;
         width: 100%;
@@ -40,6 +47,7 @@
         background-color: #2b2b2b;
         margin-top: 30px;
         border: 20px;
+        opacity: .01;
         border-style:groove ;
         border-color: #ddd;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -51,6 +59,7 @@
         border: 1px solid #ddd;
         border-radius: 1px;
         padding: 2px;
+        opacity: .01;
         border-radius: 85%;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }

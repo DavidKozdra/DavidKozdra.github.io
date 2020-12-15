@@ -6,12 +6,9 @@
         
         //using jquery map
         $(me).map(function(idx, elem) {
-                console.log($(elem).attr("href"));
-                  if(url.includes($(elem).attr("href"))){
-                        console.log("active");
+                  if(url.includes($(elem).attr("href")||url.includes("index"))){
                         $(elem).addClass("active");
                 }else{
-                console.log("No");
                 }
         });
       });

@@ -96,18 +96,12 @@ function Correct() {
 			$(this).removeClass("on");
 			$(this).children("p").text("Off");
 			$(this).addClass("off");
-			$.post("Data.txt",
- 			{
-    		value: "off"
- 			})
+
 		}else if( $(this).hasClass("off")){
 			$(this).removeClass("off");
 			$(this).children("p").text("On");
 			$(this).addClass("on");
-			$.post("Data.txt",
- 			{
-    		value: "on"
- 			})
+		
 		}
 		//post the class of object
   

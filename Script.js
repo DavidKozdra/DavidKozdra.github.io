@@ -1,4 +1,4 @@
-
+/*
     $(document).ready(function () { 
 //code to add underline to current item
         var url = window.location.href;
@@ -25,3 +25,5 @@
             opacity: 1
          }, { duration: 300, queue: false });
     });
+
+    */

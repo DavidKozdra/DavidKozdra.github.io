@@ -1,102 +1,100 @@
-
-    * {
-        font-family: 'Oswald', sans-serif;
-        font-size: 1em;
-    }
-
-    p {
-        text-align: center;
-        color: aliceblue;
-        font-size: 1.2em;
-    }
-
-    .active {
-        text-decoration: underline;
+* {
+	font-family: "Oswald", sans-serif;
+	font-size: 1em;
 }
 
-    h1 {
-        color: aliceblue;
-    }
+p {
+	text-align: center;
+	color: aliceblue;
+	font-size: 1.2em;
+}
 
-    body {
-        background-color: #2c3e50;
-    }
+.active {
+	text-decoration: underline;
+}
 
-    .fixed {
-        position: fixed;
-    }
+h1 {
+	color: aliceblue;
+}
 
-    nav li {
-        display: inline-block;
-        height: 50%;
-        padding: 10px;
-        margin-left: 70px;
-        font-size: 2em;
-    }
-    a {
-            color: #4A72FF;
-    }
-    #myVideo{
-        opacity: 0.5;
+body {
+	background-color: #2c3e50;
+}
 
-    }
-    .container {
-        padding: 120px;
-        width: 100%;
-        max-width: 2000px;
-        background-color: #2b2b2b;
-        margin-top: 30px;
-        border: 20px;
-        opacity: .01;
-        border-style:groove ;
-        border-color: #ddd;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    }
+.fixed {
+	position: fixed;
+}
 
-    #face {
-        width: 60px;
-        height: 60px;
-        border: 1px solid #ddd;
-        border-radius: 1px;
-        padding: 2px;
-        opacity: .01;
-        border-radius: 85%;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    }
+nav li {
+	display: inline-block;
+	height: 50%;
+	padding: 10px;
+	margin-left: 70px;
+	font-size: 2em;
+}
+a {
+	color: #4a72ff;
+}
+#myVideo {
+	opacity: 1;
+}
+.container {
+	padding: 120px;
+	width: 100%;
+	max-width: 2000px;
+	background-color: #2b2b2b;
+	margin-top: 30px;
+	border: 20px;
+	opacity: 1;
+	border-style: groove;
+	border-color: #ddd;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
-    #ham {
-        width: 100px;
-        height: 70px;
-        margin-left: auto;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    }
+#face {
+	width: 60px;
+	height: 60px;
+	border: 1px solid #ddd;
+	border-radius: 1px;
+	padding: 2px;
+	opacity: 1;
+	border-radius: 85%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
-    .RectItem {
-        background-color: #2c3e50;
-        width: 100px;
-        height: 100px;
-        padding: 2px;
-        border: groove;
-        font-size: 20px;
-        border-color: #2b2b2b;
-        color: aliceblue;
-    }
+#ham {
+	width: 100px;
+	height: 70px;
+	margin-left: auto;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
-    .Row {
-        background-color: #2c3e50;
-        padding: 2px;
-        font-size: 20px;
-        color: aliceblue;
-    }
+.RectItem {
+	background-color: #2c3e50;
+	width: 100px;
+	height: 100px;
+	padding: 2px;
+	border: groove;
+	font-size: 20px;
+	border-color: #2b2b2b;
+	color: aliceblue;
+}
 
-    hr {
-        width: 90%;
-    }
+.Row {
+	background-color: #2c3e50;
+	padding: 2px;
+	font-size: 20px;
+	color: aliceblue;
+}
 
-    .poster {
-        width: 400px;
-        height: 400px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
+hr {
+	width: 90%;
+}
+
+.poster {
+	width: 400px;
+	height: 400px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}

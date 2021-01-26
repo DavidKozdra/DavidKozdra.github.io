@@ -1,4 +1,4 @@
-/*
+
     $(document).ready(function () { 
 //code to add underline to current item
         var url = window.location.href;
@@ -12,7 +12,7 @@
                 }
         });
       });
-
+/*
       $(function () {
           $("#myVideo").animate({ 
           opacity:1});

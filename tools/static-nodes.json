@@ -1,0 +1,86 @@
+{
+  "nodes": [
+    {
+      "id": "hub",
+      "label": "davidkozdra\n.github.io",
+      "category": "hub",
+      "desc": "Personal hub — central landing page.",
+      "url": "https://davidkozdra.github.io/",
+      "favId": "fav-hub"
+    },
+    {
+      "id": "main",
+      "label": "davidkozdra\n.com",
+      "category": "portfolio",
+      "desc": "Active portfolio and main site for David Kozdra.",
+      "url": "https://davidkozdra.com/",
+      "favId": "fav-main"
+    },
+    {
+      "id": "oldsite",
+      "label": "Old Site\nArchive",
+      "category": "archive",
+      "desc": "Archived Bootstrap/jQuery portfolio site.",
+      "url": "oldSite/index.html",
+      "favId": null
+    },
+    {
+      "id": "linkedin",
+      "label": "LinkedIn",
+      "category": "social",
+      "desc": "David Kozdra's professional profile.",
+      "url": "https://www.linkedin.com/in/david-kozdra-5ab269186/",
+      "favId": "fav-linkedin"
+    },
+    {
+      "id": "github",
+      "label": "GitHub",
+      "category": "social",
+      "desc": "All public repositories.",
+      "url": "https://github.com/DavidKozdra",
+      "favId": "fav-github"
+    },
+    {
+      "id": "fnn",
+      "label": "Florida\nNational News",
+      "category": "web",
+      "desc": "News site maintained with WordPress, hosted on Yahoo.",
+      "url": "https://floridanationalnews.com/",
+      "favId": "fav-fnn"
+    },
+    {
+      "id": "itchio",
+      "label": "itch.io",
+      "category": "game",
+      "desc": "Published games available under magentaautumn on itch.io.",
+      "url": "https://magentaautumn.itch.io/",
+      "favId": "fav-itchio"
+    },
+    {
+      "id": "email",
+      "label": "Email",
+      "category": "social",
+      "desc": "davidkozdra@gmail.com",
+      "url": "mailto:davidkozdra@gmail.com",
+      "favId": "fav-gmail"
+    }
+  ],
+  "edges": [
+    { "f": "hub",     "g": "main"     },
+    { "f": "hub",     "g": "oldsite"  },
+    { "f": "hub",     "g": "linkedin" },
+    { "f": "hub",     "g": "github"   },
+    { "f": "hub",     "g": "email"    },
+    { "f": "main",    "g": "linkedin" },
+    { "f": "main",    "g": "github"   },
+    { "f": "main",    "g": "fnn"      },
+    { "f": "oldsite", "g": "fnn"      },
+    { "f": "github",  "g": "itchio"   }
+  ],
+  "repoEdges": {
+    "DavidKozdra.github.io": "oldsite",
+    "Typing-Tutor":          "oldsite",
+    "PasswordValut":         "oldsite",
+    "UniversalTruth":        ["oldsite", "itchio"]
+  }
+}

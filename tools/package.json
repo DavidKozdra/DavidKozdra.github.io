@@ -1,0 +1,8 @@
+{
+  "name": "build-graph",
+  "type": "module",
+  "private": true,
+  "dependencies": {
+    "node-html-parser": "^7.1.0"
+  }
+}

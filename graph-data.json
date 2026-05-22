@@ -1,10 +1,10 @@
 {
-  "generated": "2026-05-22T15:55:43.151Z",
+  "generated": "2026-05-22T16:09:59.583Z",
   "stats": {
-    "pagesCrawled": 256,
-    "githubRepos": 29,
-    "nodes": 46,
-    "edges": 66
+    "pagesCrawled": 194,
+    "githubRepos": 28,
+    "nodes": 30,
+    "edges": 46
   },
   "nodes": [
     {
@@ -70,6 +70,16 @@
       "desc": "davidkozdra@gmail.com",
       "url": "mailto:davidkozdra@gmail.com",
       "favId": "fav-gmail"
+    },
+    {
+      "id": "repo-davidkozdra-github-io",
+      "label": "DavidKozdra.github.io",
+      "category": "web",
+      "desc": "My WebSite",
+      "url": "https://github.com/DavidKozdra/DavidKozdra.github.io",
+      "favId": "fav-github",
+      "stars": 1,
+      "language": "HTML"
     },
     {
       "id": "repo-davidkozdra",
@@ -172,181 +182,12 @@
       "language": "JavaScript"
     },
     {
-      "id": "repo-davidkozdra-github-io",
-      "label": "DavidKozdra.github.io",
-      "category": "web",
-      "desc": "My WebSite",
-      "url": "https://github.com/DavidKozdra/DavidKozdra.github.io",
-      "favId": "fav-github",
-      "stars": 1,
-      "language": "HTML"
-    },
-    {
-      "id": "repo-programming-course-work",
-      "label": "Programming\nCourse\nWork",
-      "category": "web",
-      "desc": "all my class work as a computer science student",
-      "url": "https://github.com/DavidKozdra/Programming-Course-Work",
-      "favId": "fav-github",
-      "stars": 1,
-      "language": "HTML"
-    },
-    {
-      "id": "repo-p5-games-lib",
-      "label": "p5\ngames\nlib",
-      "category": "web",
-      "desc": "p5_games_lib",
-      "url": "https://github.com/DavidKozdra/p5_games_lib",
-      "favId": "fav-github",
-      "stars": 1,
-      "language": "JavaScript"
-    },
-    {
-      "id": "repo-cork-board",
-      "label": "cork\nboard",
-      "category": "web",
-      "desc": "A digital bulletin board for groups ",
-      "url": "https://github.com/DavidKozdra/cork-board",
-      "favId": "fav-github",
-      "stars": 2,
-      "language": "JavaScript"
-    },
-    {
-      "id": "repo-splashgames",
-      "label": "splashGames",
-      "category": "web",
-      "desc": "demo website for design class",
-      "url": "https://github.com/DavidKozdra/splashGames",
-      "favId": "fav-github",
-      "stars": 1,
-      "language": "HTML"
-    },
-    {
-      "id": "repo-fid",
-      "label": "fid",
-      "category": "web",
-      "desc": "(short for Fundamentals of Interactive Design, cute right?)",
-      "url": "https://github.com/DavidKozdra/fid",
-      "favId": "fav-github",
-      "stars": 0,
-      "language": "HTML"
-    },
-    {
-      "id": "repo-castle3d",
-      "label": "Castle3D",
-      "category": "web",
-      "desc": "webgl game ",
-      "url": "https://github.com/DavidKozdra/Castle3D",
-      "favId": "fav-github",
-      "stars": 0,
-      "language": "HTML"
-    },
-    {
-      "id": "repo-wp-theme",
-      "label": "WP\nTheme",
-      "category": "web",
-      "desc": "WP_Theme",
-      "url": "https://github.com/DavidKozdra/WP_Theme",
-      "favId": "fav-github",
-      "stars": 0,
-      "language": "PHP"
-    },
-    {
-      "id": "repo-ghost-game-server",
-      "label": "Ghost\nGame\nServer",
-      "category": "web",
-      "desc": "Ghost_Game_Server",
-      "url": "https://github.com/DavidKozdra/Ghost_Game_Server",
-      "favId": "fav-github",
-      "stars": 0,
-      "language": "JavaScript"
-    },
-    {
-      "id": "repo-passwordvault",
-      "label": "PasswordVault",
-      "category": "desktop",
-      "desc": "WPF password security system postgres",
-      "url": "https://github.com/DavidKozdra/PasswordVault",
-      "favId": "fav-github",
-      "stars": 0,
-      "language": "C#"
-    },
-    {
-      "id": "repo-daintree",
-      "label": "Daintree",
-      "category": "web",
-      "desc": "Ecommerse site demo made for database class using LAMP stack hosted https://php.davidkozdra.com/Login/login.php",
-      "url": "https://github.com/DavidKozdra/Daintree",
-      "favId": "fav-github",
-      "stars": 0,
-      "language": "PHP"
-    },
-    {
-      "id": "repo-universaltruth",
-      "label": "UniversalTruth",
-      "category": "desktop",
-      "desc": "2D Unity incremental space game.",
-      "url": "https://github.com/DavidKozdra/UniversalTruth",
-      "favId": "fav-github",
-      "stars": 0,
-      "language": "C#"
-    },
-    {
-      "id": "repo-polysuggest",
-      "label": "PolySuggest",
-      "category": "web",
-      "desc": "PolySuggest",
-      "url": "https://github.com/DavidKozdra/PolySuggest",
-      "favId": "fav-github",
-      "stars": 0,
-      "language": "PHP"
-    },
-    {
-      "id": "repo-polyasset",
-      "label": "PolyAsset",
-      "category": "web",
-      "desc": "Asset server for Florida Poly students .",
-      "url": "https://github.com/DavidKozdra/PolyAsset",
-      "favId": "fav-github",
-      "stars": 0,
-      "language": "PHP"
-    },
-    {
-      "id": "repo-competitive-programming-answers-",
-      "label": "Competitive\nProgramming\nAnswers\n",
-      "category": "web",
-      "desc": "Competitive programming answers from Leetcode, Online Judge, and code forces.",
-      "url": "https://github.com/DavidKozdra/Competitive-Programming-Answers-",
-      "favId": "fav-github",
-      "stars": 0,
-      "language": null
-    },
-    {
-      "id": "repo-typing-tutor",
-      "label": "Typing\nTutor",
-      "category": "desktop",
-      "desc": "This is a C# typing test project using the Windows WPF UI framework and the file management class in C#.",
-      "url": "https://github.com/DavidKozdra/Typing-Tutor",
-      "favId": "fav-github",
-      "stars": 0,
-      "language": "C#"
-    },
-    {
-      "id": "disc-github-com-DavidKozdra-PasswordValut",
-      "label": "GitHub - DavidKozdra/PasswordVau",
-      "category": "web",
-      "desc": "WPF password security system postgres. Contribute to DavidKozdra/PasswordVault development by creating an account on GitHub.",
-      "url": "https://github.com/DavidKozdra/PasswordValut",
-      "favId": "fav-github",
-      "isDiscovered": true
-    },
-    {
-      "id": "disc-github-com-DamienJK-Pocket--Chiropractor",
-      "label": "GitHub - DamienJK/Pocket--Chirop",
-      "category": "web",
-      "desc": "Contribute to DamienJK/Pocket--Chiropractor development by creating an account on GitHub.",
-      "url": "https://github.com/DamienJK/Pocket--Chiropractor",
-      "favId": "fav-github",
+      "id": "disc-magentaautumn-itch-io-bargain-quest",
+      "label": "Bargain-Quest by Magenta Autumn",
+      "category": "game",
+      "desc": "Discovered at magentaautumn.itch.io",
+      "url": "https://magentaautumn.itch.io/bargain-quest",
+      "favId": "fav-itchio",
       "isDiscovered": true
     },
     {
@@ -359,29 +200,11 @@
       "isDiscovered": true
     },
     {
-      "id": "disc-magentaautumn-itch-io-cloudy-meadows-deluxe",
-      "label": "Cloudy Meadows Deluxe by Magenta",
+      "id": "disc-magentaautumn-itch-io-poketext",
+      "label": "PokeText by Magenta Autumn",
       "category": "game",
-      "desc": "Discovered at magentaautumn.itch.io",
-      "url": "https://magentaautumn.itch.io/cloudy-meadows-deluxe",
-      "favId": "fav-itchio",
-      "isDiscovered": true
-    },
-    {
-      "id": "disc-magentaautumn-itch-io-bargain-quest",
-      "label": "Bargain-Quest by Magenta Autumn",
-      "category": "game",
-      "desc": "Discovered at magentaautumn.itch.io",
-      "url": "https://magentaautumn.itch.io/bargain-quest",
-      "favId": "fav-itchio",
-      "isDiscovered": true
-    },
-    {
-      "id": "disc-magentaautumn-itch-io-universal-truth",
-      "label": "Universal Truth by Magenta Autum",
-      "category": "game",
-      "desc": "Buy Planets , Sell beings, Earn!",
-      "url": "https://magentaautumn.itch.io/universal-truth",
+      "desc": "A Pokemon and text based mashup Fun simple and quick",
+      "url": "https://magentaautumn.itch.io/poketext",
       "favId": "fav-itchio",
       "isDiscovered": true
     },
@@ -404,11 +227,20 @@
       "isDiscovered": true
     },
     {
-      "id": "disc-magentaautumn-itch-io-poketext",
-      "label": "PokeText by Magenta Autumn",
+      "id": "disc-magentaautumn-itch-io-cloudy-meadows-deluxe",
+      "label": "Cloudy Meadows Deluxe by Magenta",
       "category": "game",
-      "desc": "A Pokemon and text based mashup Fun simple and quick",
-      "url": "https://magentaautumn.itch.io/poketext",
+      "desc": "Discovered at magentaautumn.itch.io",
+      "url": "https://magentaautumn.itch.io/cloudy-meadows-deluxe",
+      "favId": "fav-itchio",
+      "isDiscovered": true
+    },
+    {
+      "id": "disc-magentaautumn-itch-io-universal-truth",
+      "label": "Universal Truth by Magenta Autum",
+      "category": "game",
+      "desc": "Buy Planets , Sell beings, Earn!",
+      "url": "https://magentaautumn.itch.io/universal-truth",
       "favId": "fav-itchio",
       "isDiscovered": true
     },
@@ -431,11 +263,20 @@
       "isDiscovered": true
     },
     {
-      "id": "disc-github-com-DamienJK",
-      "label": "DamienJK · GitHub",
+      "id": "disc-github-com-DavidKozdra-PasswordValut",
+      "label": "GitHub - DavidKozdra/PasswordVau",
       "category": "web",
-      "desc": "DamienJK has 3 repositories available. Follow their code on GitHub.",
-      "url": "https://github.com/DamienJK",
+      "desc": "WPF password security system postgres. Contribute to DavidKozdra/PasswordVault development by creating an account on GitHub.",
+      "url": "https://github.com/DavidKozdra/PasswordValut",
+      "favId": "fav-github",
+      "isDiscovered": true
+    },
+    {
+      "id": "disc-github-com-DamienJK-Pocket--Chiropractor",
+      "label": "GitHub - DamienJK/Pocket--Chirop",
+      "category": "web",
+      "desc": "Contribute to DamienJK/Pocket--Chiropractor development by creating an account on GitHub.",
+      "url": "https://github.com/DamienJK/Pocket--Chiropractor",
       "favId": "fav-github",
       "isDiscovered": true
     }
@@ -483,6 +324,10 @@
     },
     {
       "f": "github",
+      "g": "repo-davidkozdra-github-io"
+    },
+    {
+      "f": "github",
       "g": "repo-davidkozdra"
     },
     {
@@ -522,99 +367,15 @@
       "g": "repo-guidelinecentralreact"
     },
     {
-      "f": "github",
-      "g": "repo-davidkozdra-github-io"
-    },
-    {
-      "f": "github",
-      "g": "repo-programming-course-work"
-    },
-    {
-      "f": "github",
-      "g": "repo-p5-games-lib"
-    },
-    {
-      "f": "github",
-      "g": "repo-cork-board"
-    },
-    {
-      "f": "github",
-      "g": "repo-splashgames"
-    },
-    {
-      "f": "github",
-      "g": "repo-fid"
-    },
-    {
-      "f": "github",
-      "g": "repo-castle3d"
-    },
-    {
-      "f": "github",
-      "g": "repo-wp-theme"
-    },
-    {
-      "f": "github",
-      "g": "repo-ghost-game-server"
-    },
-    {
-      "f": "github",
-      "g": "repo-passwordvault"
-    },
-    {
-      "f": "github",
-      "g": "repo-daintree"
-    },
-    {
-      "f": "github",
-      "g": "repo-universaltruth"
-    },
-    {
-      "f": "github",
-      "g": "repo-polysuggest"
-    },
-    {
-      "f": "github",
-      "g": "repo-polyasset"
-    },
-    {
-      "f": "github",
-      "g": "repo-competitive-programming-answers-"
-    },
-    {
-      "f": "github",
-      "g": "repo-typing-tutor"
-    },
-    {
       "f": "repo-davidkozdra-github-io",
       "g": "oldsite"
     },
     {
-      "f": "repo-typing-tutor",
-      "g": "oldsite"
+      "f": "itchio",
+      "g": "disc-magentaautumn-itch-io-bargain-quest"
     },
     {
-      "f": "repo-universaltruth",
-      "g": "oldsite"
-    },
-    {
-      "f": "repo-universaltruth",
-      "g": "itchio"
-    },
-    {
-      "f": "github",
-      "g": "disc-github-com-DavidKozdra-PasswordValut"
-    },
-    {
-      "f": "disc-github-com-DavidKozdra-PasswordValut",
-      "g": "oldsite"
-    },
-    {
-      "f": "github",
-      "g": "disc-github-com-DamienJK-Pocket--Chiropractor"
-    },
-    {
-      "f": "disc-github-com-DamienJK-Pocket--Chiropractor",
+      "f": "disc-magentaautumn-itch-io-bargain-quest",
       "g": "oldsite"
     },
     {
@@ -627,30 +388,10 @@
     },
     {
       "f": "itchio",
-      "g": "disc-magentaautumn-itch-io-cloudy-meadows-deluxe"
+      "g": "disc-magentaautumn-itch-io-poketext"
     },
     {
-      "f": "disc-magentaautumn-itch-io-cloudy-meadows-deluxe",
-      "g": "oldsite"
-    },
-    {
-      "f": "disc-magentaautumn-itch-io-cloudy-meadows-deluxe",
-      "g": "main"
-    },
-    {
-      "f": "itchio",
-      "g": "disc-magentaautumn-itch-io-bargain-quest"
-    },
-    {
-      "f": "disc-magentaautumn-itch-io-bargain-quest",
-      "g": "oldsite"
-    },
-    {
-      "f": "itchio",
-      "g": "disc-magentaautumn-itch-io-universal-truth"
-    },
-    {
-      "f": "disc-magentaautumn-itch-io-universal-truth",
+      "f": "disc-magentaautumn-itch-io-poketext",
       "g": "oldsite"
     },
     {
@@ -671,10 +412,22 @@
     },
     {
       "f": "itchio",
-      "g": "disc-magentaautumn-itch-io-poketext"
+      "g": "disc-magentaautumn-itch-io-cloudy-meadows-deluxe"
     },
     {
-      "f": "disc-magentaautumn-itch-io-poketext",
+      "f": "disc-magentaautumn-itch-io-cloudy-meadows-deluxe",
+      "g": "oldsite"
+    },
+    {
+      "f": "disc-magentaautumn-itch-io-cloudy-meadows-deluxe",
+      "g": "main"
+    },
+    {
+      "f": "itchio",
+      "g": "disc-magentaautumn-itch-io-universal-truth"
+    },
+    {
+      "f": "disc-magentaautumn-itch-io-universal-truth",
       "g": "oldsite"
     },
     {
@@ -699,10 +452,18 @@
     },
     {
       "f": "github",
-      "g": "disc-github-com-DamienJK"
+      "g": "disc-github-com-DavidKozdra-PasswordValut"
     },
     {
-      "f": "disc-github-com-DamienJK",
+      "f": "disc-github-com-DavidKozdra-PasswordValut",
+      "g": "oldsite"
+    },
+    {
+      "f": "github",
+      "g": "disc-github-com-DamienJK-Pocket--Chiropractor"
+    },
+    {
+      "f": "disc-github-com-DamienJK-Pocket--Chiropractor",
       "g": "oldsite"
     }
   ]

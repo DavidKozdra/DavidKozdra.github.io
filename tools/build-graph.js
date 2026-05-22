@@ -60,8 +60,11 @@ async function main() {
   // Map repo.name → node id (for edge wiring)
   const repoIdMap = {};
 
+  const ONE_YEAR_AGO = Date.now() - 365 * 24 * 60 * 60 * 1000;
+
   for (const repo of repos) {
-    if (repo.fork) continue; // skip forks
+    if (repo.fork) continue;
+    if (repo.pushed_at && new Date(repo.pushed_at).getTime() < ONE_YEAR_AGO) continue;
     const id = `repo-${repo.name.toLowerCase().replace(/[^a-z0-9]/g, "-")}`;
     repoIdMap[repo.name] = id;
     if (existingIds.has(id)) continue;

@@ -1,10 +1,10 @@
 {
-  "generated": "2026-05-22T16:09:59.583Z",
+  "generated": "2026-05-24T14:01:43.956Z",
   "stats": {
-    "pagesCrawled": 194,
-    "githubRepos": 28,
-    "nodes": 30,
-    "edges": 46
+    "pagesCrawled": 195,
+    "githubRepos": 27,
+    "nodes": 29,
+    "edges": 45
   },
   "nodes": [
     {
@@ -172,21 +172,38 @@
       "language": "JavaScript"
     },
     {
-      "id": "repo-guidelinecentralreact",
-      "label": "GuidelineCentralReact",
-      "category": "web",
-      "desc": "Create a component that displays a product card.",
-      "url": "https://github.com/DavidKozdra/GuidelineCentralReact",
-      "favId": "fav-github",
-      "stars": 0,
-      "language": "JavaScript"
-    },
-    {
       "id": "disc-magentaautumn-itch-io-bargain-quest",
       "label": "Bargain-Quest by Magenta Autumn",
       "category": "game",
       "desc": "Discovered at magentaautumn.itch.io",
       "url": "https://magentaautumn.itch.io/bargain-quest",
+      "favId": "fav-itchio",
+      "isDiscovered": true
+    },
+    {
+      "id": "disc-magentaautumn-itch-io-shos-engine",
+      "label": "Shos Visual Novel ToolKit by Mag",
+      "category": "game",
+      "desc": "NO Code Visual Novels",
+      "url": "https://magentaautumn.itch.io/shos-engine",
+      "favId": "fav-itchio",
+      "isDiscovered": true
+    },
+    {
+      "id": "disc-magentaautumn-itch-io-cloudy-meadows-deluxe",
+      "label": "Cloudy Meadows Deluxe by Magenta",
+      "category": "game",
+      "desc": "Discovered at magentaautumn.itch.io",
+      "url": "https://magentaautumn.itch.io/cloudy-meadows-deluxe",
+      "favId": "fav-itchio",
+      "isDiscovered": true
+    },
+    {
+      "id": "disc-magentaautumn-itch-io-blocksblocksblocks",
+      "label": "BLOCKSBLOCKSBLOCKS by Magenta Au",
+      "category": "game",
+      "desc": "Ball --> Goal.",
+      "url": "https://magentaautumn.itch.io/blocksblocksblocks",
       "favId": "fav-itchio",
       "isDiscovered": true
     },
@@ -205,33 +222,6 @@
       "category": "game",
       "desc": "A Pokemon and text based mashup Fun simple and quick",
       "url": "https://magentaautumn.itch.io/poketext",
-      "favId": "fav-itchio",
-      "isDiscovered": true
-    },
-    {
-      "id": "disc-magentaautumn-itch-io-shos-engine",
-      "label": "Shos Visual Novel ToolKit by Mag",
-      "category": "game",
-      "desc": "NO Code Visual Novels",
-      "url": "https://magentaautumn.itch.io/shos-engine",
-      "favId": "fav-itchio",
-      "isDiscovered": true
-    },
-    {
-      "id": "disc-magentaautumn-itch-io-blocksblocksblocks",
-      "label": "BLOCKSBLOCKSBLOCKS by Magenta Au",
-      "category": "game",
-      "desc": "Ball --> Goal.",
-      "url": "https://magentaautumn.itch.io/blocksblocksblocks",
-      "favId": "fav-itchio",
-      "isDiscovered": true
-    },
-    {
-      "id": "disc-magentaautumn-itch-io-cloudy-meadows-deluxe",
-      "label": "Cloudy Meadows Deluxe by Magenta",
-      "category": "game",
-      "desc": "Discovered at magentaautumn.itch.io",
-      "url": "https://magentaautumn.itch.io/cloudy-meadows-deluxe",
       "favId": "fav-itchio",
       "isDiscovered": true
     },
@@ -263,20 +253,20 @@
       "isDiscovered": true
     },
     {
-      "id": "disc-github-com-DavidKozdra-PasswordValut",
-      "label": "GitHub - DavidKozdra/PasswordVau",
-      "category": "web",
-      "desc": "WPF password security system postgres. Contribute to DavidKozdra/PasswordVault development by creating an account on GitHub.",
-      "url": "https://github.com/DavidKozdra/PasswordValut",
-      "favId": "fav-github",
-      "isDiscovered": true
-    },
-    {
       "id": "disc-github-com-DamienJK-Pocket--Chiropractor",
       "label": "GitHub - DamienJK/Pocket--Chirop",
       "category": "web",
       "desc": "Contribute to DamienJK/Pocket--Chiropractor development by creating an account on GitHub.",
       "url": "https://github.com/DamienJK/Pocket--Chiropractor",
+      "favId": "fav-github",
+      "isDiscovered": true
+    },
+    {
+      "id": "disc-github-com-DavidKozdra-PasswordValut",
+      "label": "GitHub - DavidKozdra/PasswordVau",
+      "category": "web",
+      "desc": "WPF password security system postgres. Contribute to DavidKozdra/PasswordVault development by creating an account on GitHub.",
+      "url": "https://github.com/DavidKozdra/PasswordValut",
       "favId": "fav-github",
       "isDiscovered": true
     }
@@ -363,10 +353,6 @@
       "g": "repo-koz-game-engine"
     },
     {
-      "f": "github",
-      "g": "repo-guidelinecentralreact"
-    },
-    {
       "f": "repo-davidkozdra-github-io",
       "g": "oldsite"
     },
@@ -376,6 +362,34 @@
     },
     {
       "f": "disc-magentaautumn-itch-io-bargain-quest",
+      "g": "oldsite"
+    },
+    {
+      "f": "itchio",
+      "g": "disc-magentaautumn-itch-io-shos-engine"
+    },
+    {
+      "f": "disc-magentaautumn-itch-io-shos-engine",
+      "g": "oldsite"
+    },
+    {
+      "f": "itchio",
+      "g": "disc-magentaautumn-itch-io-cloudy-meadows-deluxe"
+    },
+    {
+      "f": "disc-magentaautumn-itch-io-cloudy-meadows-deluxe",
+      "g": "oldsite"
+    },
+    {
+      "f": "disc-magentaautumn-itch-io-cloudy-meadows-deluxe",
+      "g": "main"
+    },
+    {
+      "f": "itchio",
+      "g": "disc-magentaautumn-itch-io-blocksblocksblocks"
+    },
+    {
+      "f": "disc-magentaautumn-itch-io-blocksblocksblocks",
       "g": "oldsite"
     },
     {
@@ -393,34 +407,6 @@
     {
       "f": "disc-magentaautumn-itch-io-poketext",
       "g": "oldsite"
-    },
-    {
-      "f": "itchio",
-      "g": "disc-magentaautumn-itch-io-shos-engine"
-    },
-    {
-      "f": "disc-magentaautumn-itch-io-shos-engine",
-      "g": "oldsite"
-    },
-    {
-      "f": "itchio",
-      "g": "disc-magentaautumn-itch-io-blocksblocksblocks"
-    },
-    {
-      "f": "disc-magentaautumn-itch-io-blocksblocksblocks",
-      "g": "oldsite"
-    },
-    {
-      "f": "itchio",
-      "g": "disc-magentaautumn-itch-io-cloudy-meadows-deluxe"
-    },
-    {
-      "f": "disc-magentaautumn-itch-io-cloudy-meadows-deluxe",
-      "g": "oldsite"
-    },
-    {
-      "f": "disc-magentaautumn-itch-io-cloudy-meadows-deluxe",
-      "g": "main"
     },
     {
       "f": "itchio",
@@ -452,18 +438,18 @@
     },
     {
       "f": "github",
-      "g": "disc-github-com-DavidKozdra-PasswordValut"
-    },
-    {
-      "f": "disc-github-com-DavidKozdra-PasswordValut",
-      "g": "oldsite"
-    },
-    {
-      "f": "github",
       "g": "disc-github-com-DamienJK-Pocket--Chiropractor"
     },
     {
       "f": "disc-github-com-DamienJK-Pocket--Chiropractor",
+      "g": "oldsite"
+    },
+    {
+      "f": "github",
+      "g": "disc-github-com-DavidKozdra-PasswordValut"
+    },
+    {
+      "f": "disc-github-com-DavidKozdra-PasswordValut",
       "g": "oldsite"
     }
   ]

@@ -29,21 +29,3 @@ function addBanner() {
 }
 
 
-/*
-
-f
-
-      $(function () {
-          $("#myVideo").animate({ 
-          opacity:1});
-        $("div").animate({right: '20px'}, { duration: 300 });
-        $("div ").animate({left: '20px'}, { duration: 300 });
-        $("#face").animate({
-            opacity: 1
-         }, { duration: 300, queue: false });
-        $(".container").animate({
-            opacity: 1
-         }, { duration: 300, queue: false });
-    });
-
-    */
